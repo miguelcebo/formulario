@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "registro">
+    Nombre*<input type="text" id="nombre" required><br>
+    Apellidos*<input type="text" id="apellidos" required><br>
+    Correo electrónico o móvil*<input type="text" id="correomovil" required><br>
+    Contraseña*<input type="password" id="contraseña1" required><br>
+    Confirmación contraseña*<input type="password" id="contraseña2" required><br>
+    Fecha de nacimiento<input type="text" id="fecha"><br>
+    Los campos marcados con un * son obligatorios
+    </div>
+
+    <div id = "login" style="display: none;">
+    El usuario se registro correctamente<br>
+    Usuario<input type="text" id="usuario"><br>
+    Contraseña<input type="password" id="contraseña3">
+    <input type="button" id="boton1" value="(º)">
+    </div>
+
+    <div id = "logout" style="display: none;">
+        <input type="button" id="boton2" value="Cerrar sesión">
+    </div>
+    <script src="validation.js"></script>
+    <script src="cookie.js"></script>
+    <script src="nosek.js"></script>
+</body>
+</html>
